@@ -1,0 +1,15 @@
+{
+  "name": "preentrega3zavala",
+  "version": "1.0.0",
+  "description": "Pre entrega 3 Zavala Productos de concreto",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abraham Zavala",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/AbrahamZ3/ProyectoCoder-ProductosdeConcreto-AbrahamZavala)"
+  }
+}
