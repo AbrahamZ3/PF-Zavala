@@ -97,6 +97,7 @@
   .texto-footer {
     padding-top: 10px;
     font-size: 20px;
+    margin: 0;
   }
   
   /* CONTENIDO PRINCIPAL NOSOTROS/////////////////*/
@@ -146,17 +147,11 @@
       text-align: center;
       
   }
-  
- 
-  
-  
   .servicios img {
     max-width: 95%;
     width: 500px;
     height: 300px;
   }
-  
-  
   /* CONTENIDO PRINCIPAL CONTACTO/////////////////*/
   
   .mapa {
@@ -164,7 +159,6 @@
     justify-content: center;
     align-items: center;
   }
-
  /* MEDIA QUERIES /////////////////////// */
  @media (min-width: 768px) {
     .servicios {
@@ -197,4 +191,3 @@
       padding: 20px 0 10px 0;
     }
   }
-  
