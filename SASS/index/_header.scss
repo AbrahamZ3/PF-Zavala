@@ -1,0 +1,40 @@
+header {
+  background-color: rgb(13, 59, 102);
+}
+
+.titulo {
+  text-align: center;
+  padding: 40px 0 20px 0;
+  font-size: 60px;
+  color: rgb(250, 240, 202);
+}
+
+@media (max-width: 768px) {
+  .titulo {
+    font-size: 30px;
+    padding: 20px 0 10px 0;
+  }
+}
+
+.navbar  {
+  margin-top: 20px;
+  background-color: rgb(244, 211, 94);
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-link {
+  font-size: 30px;
+}
+
+@media (max-width: 768px) { /* OCULTA EL ICONO EL PANTALLAS PEQUEÃ‘AS //*/
+  .navbar-brand {
+    display: none;
+  }
+  .nav-link {
+    font-size: 20px;
+  }
+}

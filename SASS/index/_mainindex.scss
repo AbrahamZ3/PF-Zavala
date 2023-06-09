@@ -1,0 +1,15 @@
+.texto-main {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+   @media (max-width: 540px) {
+    .texto-main {
+      font-size: 15px;
+    }
+  } 
+  

@@ -1,0 +1,23 @@
+.servicios {
+    max-width: 1200px;
+      width: 95%;
+      margin: 0 auto;
+      text-align: center;
+      
+  }
+  
+  @media (min-width: 768px) {
+    .servicios {
+        display: flex;
+        gap: 20px;
+        text-align: center;
+    }
+  }
+  
+  
+  .servicios img {
+    max-width: 95%;
+    width: 500px;
+    height: 300px;
+  }
+  

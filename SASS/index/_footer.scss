@@ -1,0 +1,37 @@
+footer,
+footer p {
+  background-color: rgb(244, 211, 94);
+  text-align: center;
+  color: black;
+}
+
+.footer div hr {
+  margin: 0 auto;
+  border-color: green;
+  opacity: 1;
+}
+
+.redes-sociales {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.linea-footer {
+  margin: auto 0 auto;
+}
+
+.texto-footer {
+  padding-top: 10px;
+  font-size: 20px;
+  margin: 0;
+}
+
+/* CONTENIDO PRINCIPAL NOSOTROS/////////////////*/
+.acordeon button {
+  font-size: 40px;
+}
+.acordeon{
+  text-align: center;
+  font-size: 30px;
+}
