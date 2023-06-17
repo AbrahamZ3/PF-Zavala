@@ -4,9 +4,10 @@ header {
 
 .titulo {
   text-align: center;
-  padding: 40px 0 20px 0;
+  padding: 30px;
   font-size: 60px;
   color: rgb(250, 240, 202);
+  cursor: default;
 }
 
 @media (max-width: 768px) {
@@ -16,8 +17,9 @@ header {
   }
 }
 
+
 .navbar  {
-  margin-top: 20px;
+  /* margin-top: 20px; */
   background-color: rgb(244, 211, 94);
 }
 
@@ -30,11 +32,18 @@ header {
   font-size: 30px;
 }
 
-@media (max-width: 768px) { /* OCULTA EL ICONO EL PANTALLAS PEQUEÃ‘AS //*/
+.nav-link:hover {
+  background-color: lightblue;
+  border-radius: 3px;
+  
+}
+
+@media (max-width: 768px) { /* OCULTA EL ICONO EL PANTALLAS PEQUEÑAS //*/
   .navbar-brand {
     display: none;
   }
   .nav-link {
     font-size: 20px;
   }
+  
 }

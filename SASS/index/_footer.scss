@@ -3,11 +3,12 @@ footer p {
   background-color: rgb(244, 211, 94);
   text-align: center;
   color: black;
+  cursor: default;
+  
 }
 
 .footer div hr {
   margin: 0 auto;
-  border-color: green;
   opacity: 1;
 }
 
@@ -22,16 +23,11 @@ footer p {
 }
 
 .texto-footer {
-  padding-top: 10px;
+  /* padding-top: 10px; */
   font-size: 20px;
   margin: 0;
 }
 
-/* CONTENIDO PRINCIPAL NOSOTROS/////////////////*/
-.acordeon button {
-  font-size: 40px;
-}
-.acordeon{
-  text-align: center;
-  font-size: 30px;
+.contactanos {
+  font-size: 25 px;
 }

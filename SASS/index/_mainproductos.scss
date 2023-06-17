@@ -26,5 +26,19 @@
     font-size: 30px;
     color: white;
     text-align: center;
-    
+  }
+
+  .main-produtctos {
+    height: 100vh;
+    padding-bottom: 500px;
+    color: black;
+  }
+  
+   .producto {
+    transform: scale(1);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .producto:hover {
+    transform: scale(1.2);
   }

@@ -5,4 +5,58 @@
     text-align: center;
     font-size: 30px;
   }
+  .titulo-nosotros {
+    text-align: center;
+    font-size: 40px;
+    padding: 20px;
+  }
+  .parrafo-nosotros {
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+  }
+  .titulos-acordeon {
+    font-weight: bold;
+    font-size: 30px;
+    
+  }
+
+  .imagen-nosotros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imagen-nosotros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
+  .imagen-nosotros img {
+    max-width: 100%;
+    max-height: 100%;
+    padding: 5px;
+    width: 1000px; /* Ancho de la imagen */
+    height: 400px; /* Alto de la imagen */
+  }
+
+
+
+   .imagen-nosotros img  {
+    transform: translateX(100%);
+    animation: slideIn 5s ease-in-out forwards;
+  }
+  
+  @keyframes slideIn {
+    50% { transform: translateX(-100%); }
+    100% { transform: translateX(0); }
+  }
+
+  @media (max-width: 540px) {
+    .imagen-nosotros img {
+      width: 1000px; /* Ancho de la imagen */
+      height: 200px; /* Alto de la imagen */
+    }
+  } 
+ 
