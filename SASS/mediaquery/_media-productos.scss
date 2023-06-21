@@ -1,0 +1,21 @@
+@media (max-width: 768px) {
+    .grillas {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+    }
+}
+
+@media (max-width: 540px) {
+    .producto-nombre {
+        font-size: 20px;
+        text-decoration: underline;
+    }
+
+    .producto-especificaciones {
+        font-size: 15px;
+    }
+
+    .titulo-productos {
+        font-size: 30px;
+    }
+}

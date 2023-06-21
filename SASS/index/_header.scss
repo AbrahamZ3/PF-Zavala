@@ -10,15 +10,7 @@ header {
   cursor: default;
 }
 
-@media (max-width: 768px) {
-  .titulo {
-    font-size: 30px;
-    padding: 20px 0 10px 0;
-  }
-}
-
-
-.navbar  {
+.navbar {
   /* margin-top: 20px; */
   background-color: rgb(244, 211, 94);
 }
@@ -35,15 +27,6 @@ header {
 .nav-link:hover {
   background-color: lightblue;
   border-radius: 3px;
-  
+
 }
 
-@media (max-width: 768px) { /* OCULTA EL ICONO EL PANTALLAS PEQUEÑAS //*/
-  .navbar-brand {
-    display: none;
-  }
-  .nav-link {
-    font-size: 20px;
-  }
-  
-}

@@ -2,9 +2,9 @@
 
 @import "./index/header";
 
-@import "./index/mainindex";
-
 @import "./index/footer";
+
+@import "./index/mainindex";
 
 @import "./index/mainnosotros";
 
@@ -13,3 +13,18 @@
 @import "./index/mainservicios";
 
 @import "./index/maincontacto";
+
+/* MEDIA QUERY */
+
+@import "./mediaquery/media-index";
+
+@import "./mediaquery/media-nosotros";
+
+@import "./mediaquery/media-productos";
+
+@import "./mediaquery/media-servicios";
+
+@import "./mediaquery/media-contacto";
+
+@import "./mediaquery/media-header";
+

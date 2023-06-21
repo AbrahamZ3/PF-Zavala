@@ -1,0 +1,17 @@
+@media (max-width: 768px) {
+    .titulo {
+        font-size: 40px;
+        padding: 20px 0 10px 0;
+    }
+}
+
+/* OCULTA EL ICONO EL PANTALLAS PEQUEÑAS //*/
+@media (max-width: 768px) {
+    .navbar-brand {
+        display: none;
+    }
+
+    .nav-link {
+        font-size: 20px;
+    }
+}

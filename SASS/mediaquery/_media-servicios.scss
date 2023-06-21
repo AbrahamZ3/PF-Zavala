@@ -1,0 +1,19 @@
+@media (max-width: 768px) {
+    .contenedor-tarjetas {
+      flex-wrap: wrap;
+    }
+  }
+
+  @media (max-width: 540px) {
+    .titulo-tarjetas {
+      font-size: 30px;
+      text-decoration: underline;
+    }
+    .contenido-tarjetas {
+        font-size: 15px;
+      }
+    .titulo-servicios {
+      font-size: 30px;
+    }
+  }
+  

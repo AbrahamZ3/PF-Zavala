@@ -1,15 +1,15 @@
-footer,
-footer p {
+footer {
   background-color: rgb(244, 211, 94);
+  text-align: center;
+  margin: auto;
+}
+
+footer p {
   text-align: center;
   color: black;
   cursor: default;
-  
-}
-
-.footer div hr {
-  margin: 0 auto;
-  opacity: 1;
+  font-size: 20px;
+  margin: 0;
 }
 
 .redes-sociales {
@@ -18,16 +18,16 @@ footer p {
   align-items: center;
 }
 
-.linea-footer {
-  margin: auto 0 auto;
-}
-
 .texto-footer {
-  /* padding-top: 10px; */
+  padding-top: 10px;
   font-size: 20px;
   margin: 0;
 }
 
-.contactanos {
-  font-size: 25 px;
+.linea-divisoria {
+  border: none;
+  height: 5px;
+  background-color: rgb(13, 59, 102);
+  margin: 0;
+  opacity: 1;
 }

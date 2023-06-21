@@ -3,41 +3,42 @@
   font-size: 40px;
   padding: 20px;
 }
+
 .parrafo-index {
   font-size: 30px;
 }
-.texto-main {
-    text-align: center;
-    padding-top: 10px;
-    font-size: 20px;
-    width: 80%;
-  }
-  
-  h2 {
-    font-size: 30px;
-  }
-   @media (max-width: 540px) {
-    .texto-main {
-      font-size: 15px;
-    }
-  } 
- 
-  .texto-main:hover {
-    width: 80%;
-    background-color: white;
-  } 
 
-.parrafo-index{
-    animation-duration: 3s;
-    animation-name: slidein;
+.texto-main {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 20px;
+  width: 80%;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+
+.parrafo-index {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+.imagen-index {
+  animation: pulse 1s ease-in-out;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
   }
- 
-  .imagen-index {
-    animation: pulse 1s ease-in-out ;
+
+  50% {
+    transform: scale(1.2);
   }
-  
-  @keyframes pulse {
-    0% { transform: scale(1); }
-    50% { transform: scale(1.1); }
-    100% { transform: scale(1); }
+
+  100% {
+    transform: scale(1);
   }
+}
