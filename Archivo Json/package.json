@@ -1,7 +1,7 @@
 {
-  "name": "preentrega3zavala",
+  "name": "PF+Zavala",
   "version": "1.0.0",
-  "description": "Pre entrega 3 Zavala Productos de concreto",
+  "description": "Entrega final Zavala Productos de concreto",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,6 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "(https://github.com/AbrahamZ3/ProyectoCoder-ProductosdeConcreto-AbrahamZavala)"
+    "url": "https://github.com/AbrahamZ3/PF-Zavala.git"
   }
 }
