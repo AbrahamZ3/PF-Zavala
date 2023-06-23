@@ -1,0 +1,71 @@
+/* Inicio ----------------------- */
+@media (max-width: 540px) {
+    .parrafo-index {
+        font-size: 20px;
+    }
+
+    .titulo-inicio {
+        font-size: 25px;
+    }
+}
+
+/* Nosotros --------------------- */
+@media (max-width: 540px) {
+    .imagen-nosotros img {
+        width: 1000px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 540px) {
+    .parrafo-nosotros {
+        font-size: 20px;
+    }
+
+    .titulos-acordeon {
+        font-size: 20px;
+    }
+
+    .titulo-nosotros {
+        font-size: 25px;
+    }
+}
+
+/* Productos ---------------------- */
+@media (max-width: 540px) {
+    .producto-nombre {
+        font-size: 20px;
+        text-decoration: underline;
+    }
+
+    .producto-especificaciones {
+        font-size: 15px;
+    }
+
+    .titulo-productos {
+        font-size: 30px;
+    }
+}
+
+/* Servicios ---------------------- */
+@media (max-width: 540px) {
+    .titulo-tarjetas {
+        font-size: 30px;
+        text-decoration: underline;
+    }
+
+    .contenido-tarjetas {
+        font-size: 15px;
+    }
+
+    .titulo-servicios {
+        font-size: 30px;
+    }
+}
+
+/* Contacto ----------------------- */
+@media (max-width: 540px) {
+    .titulo-contacto {
+        font-size: 30px;
+    }
+}

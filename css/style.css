@@ -164,7 +164,7 @@ h2 {
 
 .imagen-nosotros img {
   transform: translateX(100%);
-  animation: slideIn 5s ease-in-out forwards;
+  animation: slideIn 3s ease-in-out forwards;
 }
 
 @keyframes slideIn {
@@ -313,6 +313,7 @@ h2 {
 }
 
 /* MEDIA QUERY */
+/* Inicio ----------------------- */
 @media (max-width: 540px) {
   .parrafo-index {
     font-size: 20px;
@@ -321,6 +322,7 @@ h2 {
     font-size: 25px;
   }
 }
+/* Nosotros --------------------- */
 @media (max-width: 540px) {
   .imagen-nosotros img {
     width: 1000px;
@@ -338,12 +340,7 @@ h2 {
     font-size: 25px;
   }
 }
-@media (max-width: 768px) {
-  .grillas {
-    grid-template-columns: repeat(1, 1fr);
-    gap: 5px;
-  }
-}
+/* Productos ---------------------- */
 @media (max-width: 540px) {
   .producto-nombre {
     font-size: 20px;
@@ -356,11 +353,7 @@ h2 {
     font-size: 30px;
   }
 }
-@media (max-width: 768px) {
-  .contenedor-tarjetas {
-    flex-wrap: wrap;
-  }
-}
+/* Servicios ---------------------- */
 @media (max-width: 540px) {
   .titulo-tarjetas {
     font-size: 30px;
@@ -373,11 +366,13 @@ h2 {
     font-size: 30px;
   }
 }
+/* Contacto ----------------------- */
 @media (max-width: 540px) {
   .titulo-contacto {
     font-size: 30px;
   }
 }
+/* Header ---------------------------------- */
 @media (max-width: 768px) {
   .titulo {
     font-size: 40px;
@@ -391,6 +386,19 @@ h2 {
   }
   .nav-link {
     font-size: 20px;
+  }
+}
+/* Productos --------------------- */
+@media (max-width: 768px) {
+  .grillas {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5px;
+  }
+}
+/* Servicios ------------------- */
+@media (max-width: 768px) {
+  .contenedor-tarjetas {
+    flex-wrap: wrap;
   }
 }
 

@@ -1,8 +1,8 @@
-@import "./index/globales";
+@import "./layaouts/globales";
 
-@import "./index/header";
+@import "./layaouts/header";
 
-@import "./index/footer";
+@import "./layaouts/footer";
 
 @import "./index/mainindex";
 
@@ -16,15 +16,6 @@
 
 /* MEDIA QUERY */
 
-@import "./mediaquery/media-index";
+@import "./mediaquery/media-540";
 
-@import "./mediaquery/media-nosotros";
-
-@import "./mediaquery/media-productos";
-
-@import "./mediaquery/media-servicios";
-
-@import "./mediaquery/media-contacto";
-
-@import "./mediaquery/media-header";
-
+@import "./mediaquery/media-768";

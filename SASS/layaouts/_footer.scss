@@ -1,0 +1,33 @@
+footer {
+  background-color: rgb(244, 211, 94);
+  text-align: center;
+  margin: auto;
+}
+
+footer p {
+  text-align: center;
+  color: black;
+  cursor: default;
+  font-size: 20px;
+  margin: 0;
+}
+
+.redes-sociales {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.texto-footer {
+  padding-top: 10px;
+  font-size: 20px;
+  margin: 0;
+}
+
+.linea-divisoria {
+  border: none;
+  height: 5px;
+  background-color: rgb(13, 59, 102);
+  margin: 0;
+  opacity: 1;
+}
