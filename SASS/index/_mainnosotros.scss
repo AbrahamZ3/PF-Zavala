@@ -1,4 +1,3 @@
-
 .acordeon {
   text-align: center;
   font-size: 30px;
@@ -40,7 +39,7 @@
   width: 1000px;
   height: 400px;
 }
-
+/* animacion imagen que entra desde la izquierda */
 .imagen-nosotros img {
   transform: translateX(100%);
   animation: slideIn 3s ease-in-out forwards;

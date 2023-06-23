@@ -19,12 +19,12 @@ h2 {
   font-size: 30px;
 }
 
-
 .parrafo-index {
   animation-duration: 3s;
   animation-name: slidein;
 }
 
+/* animacion que hace que la imagen se agrande y regrese */
 .imagen-index {
   animation: pulse 1s ease-in-out;
 }

@@ -10,7 +10,6 @@
   max-width: 100%;
   justify-content: center;
   align-items: center;
-
 }
 
 .tarjetas {
@@ -23,7 +22,7 @@
   cursor: default;
   transition: all 400ms ease;
 }
-
+/* LEVANTA UN POCO LAS TARJETAS */
 .tarjetas:hover {
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
   transform: translateY(-3%);
@@ -48,8 +47,6 @@
   font-weight: 400;
   margin-bottom: 15px;
 }
-
-
 
 /* ANIMACION TEXTO ENTRA DE LADO */
 .contenido-tarjetas {
